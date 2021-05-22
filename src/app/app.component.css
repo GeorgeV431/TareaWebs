@@ -1,0 +1,12 @@
+#header {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, rgba(138, 43, 226, 0.75)), to(rgba(40, 215, 210, 0.75)));
+  background: linear-gradient(90deg, #020024 0%, rgba(138, 43, 226, 0.75) 0%, rgba(40, 215, 210, 0.75) 100%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 4em;
+  vertical-align: middle;
+  padding: 1em;
+}
+/*# sourceMappingURL=app.component.css.map */

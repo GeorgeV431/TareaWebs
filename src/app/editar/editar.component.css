@@ -1,0 +1,53 @@
+form {
+  width: 50%;
+  margin: auto;
+  height: 40em;
+  border: 2px #9e9d9d;
+  border-style: none solid solid solid;
+  border-radius: 0em 0em 0.5em 0.5em;
+  padding: 5em;
+}
+
+:host {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+mat-form-field {
+  margin: 0em  1em 1em 1em;
+  width: 30em;
+  border-radius: 0.5em;
+}
+
+textarea {
+  height: 10em;
+}
+
+mat-label {
+  color: blueviolet;
+}
+
+button {
+  float: right;
+  margin-right: 2.5em;
+  margin-top: 1em;
+  font-size: 1em;
+  width: 10em;
+  height: 3em;
+  border: 2px solid #9e9d9d;
+  background-color: blueviolet;
+  color: white;
+}
+
+#descripcion {
+  width: 40em;
+}
+/*# sourceMappingURL=editar.component.css.map */

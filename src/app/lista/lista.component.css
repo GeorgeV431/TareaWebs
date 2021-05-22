@@ -1,0 +1,40 @@
+section {
+  width: 72.5em;
+  margin: auto;
+}
+
+footer {
+  width: 13em;
+  margin: auto;
+  padding-top: 1em;
+}
+
+div {
+  float: left;
+  margin-top: 1em;
+  padding: 0em 2em 0em 2em;
+}
+
+#proceso {
+  border: 2px #9e9d9d;
+  border-style: none solid none solid;
+}
+
+#adicionar {
+  font-size: 1em;
+  width: 10em;
+  height: 3em;
+  border: 2px solid #9e9d9d;
+}
+
+#placeholder {
+  width: 72.4em;
+  height: 1px;
+}
+
+.placeholder {
+  width: 20em;
+  margin: auto;
+  margin-bottom: 1em;
+}
+/*# sourceMappingURL=lista.component.css.map */

@@ -1,0 +1,23 @@
+mat-card-title {
+  margin-left: -0.9em;
+}
+
+#container {
+  width: 20em;
+  margin: auto;
+  border: 2px solid #9e9d9d;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+.xbutton {
+  float: right;
+  position: absolute;
+  top: 0em;
+  right: -0.5em;
+}
+
+mat-card {
+  background-color: #76ffdd;
+}
+/*# sourceMappingURL=nota-abierta.component.css.map */

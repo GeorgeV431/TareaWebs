@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,cAAc,CAAA;EACV,WAAW,EAAE,MAAM;CACtB;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,GAAG,CAAC,KAAK,CATP,OAAkB;EAU5B,aAAa,EAAC,KAAK;EACnB,aAAa,EAAE,GAAG;CACrB;;AAED,AAAA,QAAQ,CAAA;EAEJ,KAAK,EAAC,KAAK;EACX,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,KAAK,EAAC,MAAM;CACf;;AACD,AAAA,QAAQ,CAAA;EACJ,gBAAgB,EAvBN,OAAkB;CAwB/B",
+    "sources": [
+        "nota-en-proceso.component.scss"
+    ],
+    "names": [],
+    "file": "nota-en-proceso.component.css"
+}

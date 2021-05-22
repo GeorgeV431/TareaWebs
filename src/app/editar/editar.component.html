@@ -1,0 +1,31 @@
+<form  autocomplete="off" id="formulario" #noteForm="ngForm" (ngSubmit)="onSubmit(noteForm)">
+
+    <!--INPUT TITULO -->
+    <mat-form-field appearance="fill">
+        <mat-label>Titulo</mat-label>
+        <input name="titulo" [ngModel]="nota.titulo" required matInput>
+    </mat-form-field>
+
+    <!-- -->
+    
+    <!--SELECT ESTADO-->
+    <mat-form-field appearance="fill">
+      <mat-label>Estado</mat-label>
+      <mat-select name="estado" [ngModel]="nota.estado" required>
+        <mat-option value="abierto">Abierto</mat-option>
+        <mat-option value="proceso">En proceso</mat-option>
+        <mat-option value="cerrado">Cerrado</mat-option>
+      </mat-select>
+    </mat-form-field>
+    
+
+    <!--TEXTAREA DESCRIPCION -->
+    <mat-form-field id="descripcion" appearance="fill">
+      <mat-label>Descripcion</mat-label>
+      <textarea name="descripcion" [ngModel]="nota.descripcion" maxlength="150" required matInput></textarea>
+    </mat-form-field>
+    
+
+    <!--BUTTON SUBMIT -->
+    <button type="submit" mat-flat-button>Actualizar</button>
+</form>

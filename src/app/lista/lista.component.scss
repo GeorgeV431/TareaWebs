@@ -1,0 +1,42 @@
+
+$border-color:rgb(158, 157, 157);
+
+section{
+    width: 72.5em;
+    margin: auto;
+    //border: 1px solid black;
+}
+footer{
+    width: 13em;
+    margin:auto;
+    padding-top:1em;
+}
+div{
+    float:left;
+    margin-top: 1em;
+    padding: 0em 2em 0em 2em;
+}
+
+#proceso{
+    border: 2px $border-color;
+    border-style: none solid none solid;
+}
+
+#adicionar{     //boton actualizar;
+    font-size: 1em;
+    width: 10em;
+    height: 3em;
+    border: 2px solid $border-color;
+}
+
+#placeholder{
+    width: 72.4em;
+    height:1px;
+    //border:1px solid black;
+}
+
+.placeholder{
+    width: 20em;
+    margin: auto;
+    margin-bottom: 1em;
+}

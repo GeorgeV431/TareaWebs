@@ -1,0 +1,23 @@
+<section>
+  <div id="abiertas">
+    <div class="placeholder"></div>
+    <app-nota-abierta *ngFor="let nota of abiertas; index as i"  [routerLink]="['i']" (delete)="deleteAbierta(i)"  [titulo]="nota.titulo" [descripcion]="nota.descripcion" ></app-nota-abierta>
+  </div>
+
+  <div id="proceso">
+    <div class="placeholder"></div>
+    <app-nota-en-proceso *ngFor="let nota of enProceso; index as i"  [routerLink]="['i']" (delete)="deleteEnProceso(i)"  [titulo]="nota.titulo" [descripcion]="nota.descripcion" ></app-nota-en-proceso>
+  </div>
+
+  <div id="cerradas">
+    <div class="placeholder"></div>
+    <app-nota-cerrada *ngFor="let nota of cerradas; index as i"  [routerLink]="['i']" (delete)="deleteCerrada(i)"  [titulo]="nota.titulo" [descripcion]="nota.descripcion" ></app-nota-cerrada>
+  </div>
+  <div id="placeholder"></div>
+</section>
+
+<footer>
+    <div>
+        <button type="submit" id="adicionar" [routerLink]="['/']" routerLinkActive="router-link-active"  mat-flat-button>Adicionar</button>
+    </div>
+</footer>

@@ -1,0 +1,15 @@
+<div #container id="container">
+    <mat-card id="card" class="example-card">
+      <mat-card-header>
+        <mat-card-title>{{titulo}}</mat-card-title>
+        <mat-card-actions>
+          <button class="xbutton" (click)="onButtonClick()" mat-button>X</button>
+        </mat-card-actions>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          {{descripcion}}
+        </p>
+      </mat-card-content>
+    </mat-card>
+</div>

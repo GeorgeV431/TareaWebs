@@ -1,0 +1,25 @@
+$nota-cerrada:rgb(253, 130, 130);
+$border-color:rgb(158, 157, 157);
+
+mat-card-title{
+    margin-left: -0.9em;
+}
+
+#container{
+    width: 20em;
+    margin: auto;
+    border: 2px solid $border-color;
+    border-radius:0.5em;
+    margin-bottom: 1em;
+}
+
+#xbutton{
+    //border: 1px solid black;
+    float:right;
+    position: absolute;
+    top: 0em;
+    right:-0.5em;
+}
+mat-card{
+    background-color: $nota-cerrada;
+}
